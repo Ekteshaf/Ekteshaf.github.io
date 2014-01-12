@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Hello World!"
+date:   2013-12-29 21:03:56
+categories: jekyll update
+---
+
+Finally got to implement the static site generator Jekyll with my github page!
+What better way to celebrate than use markdown to display hello world programs for all the languages I know.
+
+Python:
+ 
+{% highlight python %}
+print "Hello World"
+{% endhighlight %}
+
+Java:
+
+{%highlight java %}
+public static class Hi
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Hello World");
+	}
+}
+{% endhighlight %}
+
+C:
+
+{% highlight c %}
+#include<stdio.h>
+
+int main(void)
+{
+	printf("Hello World\n");
+	return 0;
+}
+{% endhighlight %}
+
+C#
+
+{% highlight c# %}
+using System;
+
+public class Hello1
+{
+   public static void Main()
+   {
+      Console.WriteLine("Hello, World!");
+   }
+}
+{% endhighlight %}
+
+
+Check out a [Markdown Cheatsheet][cheatsheet] for more info on how to get the most out of using github's flavor of markdown.
+
+[cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
